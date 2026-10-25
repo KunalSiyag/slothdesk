@@ -1,0 +1,29 @@
+{
+  "name": "slothdesk",
+  "version": "0.1.0",
+  "description": "Sort a messy Downloads folder with a local Gemma, then get a two-minute note from Ultramarine. Secrets never leave the laptop.",
+  "scripts": {
+    "demo": "node demo/make-pile.mjs"
+  },
+  "keywords": [
+    "gemma",
+    "ollama",
+    "local-first",
+    "downloads",
+    "file-organizer",
+    "ultramarine"
+  ],
+  "author": "Kunal Siyag",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.104.0"
+  },
+  "type": "module",
+  "bin": {
+    "slothdesk": "bin/slothdesk.mjs"
+  },
+  "repository": "github:KunalSiyag/slothdesk",
+  "engines": {
+    "node": ">=20"
+  }
+}
